@@ -13,10 +13,11 @@ provider "azurerm" {
   features {}
 }
 
+
 backend "azurerm" {
     resource_group_name   = "DevOpststate-rg"
     storage_account_name  = "devopststate"
     container_name        = "tfstate"
-    key                   = "+uRmL73LSnXvSEGMG9pd26R28qvgFS9z3BcZrg+NHAExrs9HkRhOjNGWxT9c/J0iDcwF2t+txjCf0ZfDayV6pw=="
+    key                   = "qXPzkoeiD4bEj1Av3Ai2CbhnlyFrABftAzN25hieBubu1yp2SWsXnR9C45UMBz82cbfwKzjluAf2ihpOZuzF5A==~"
 }
 
